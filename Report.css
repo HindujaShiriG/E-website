@@ -1,0 +1,35 @@
+
+/* Global Styles */
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('/images/4.jpg'); /* Adjust the path to your image */
+        background-size: cover;
+        background-position: center;
+    }
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: #333;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color:rgb(235, 194, 118);
+    color: #fff;
+}

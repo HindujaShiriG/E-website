@@ -1,0 +1,71 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Set background color */
+    background-image: url(images/no1.jpg);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 400px;
+    max-width: 90%; /* Adjust max-width as needed */
+    padding: 20px;
+    background: #fff; /* Background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Button hover background color */
+}
+
+.member {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.member a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+}
+
+.member a:hover {
+    color: #0056b3; /* Link hover color */
+}

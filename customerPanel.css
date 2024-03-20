@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Sidebar Styles */
+#sidebar {
+  background-color: #f4f4f4;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+  transition: left 0.3s ease;
+}
+
+#customerInfo {
+  margin-bottom: 20px;
+}
+
+/* Product Grid Styles */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Cart Styles */
+#cart {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Total Price Styles */
+#totalPrice {
+  text-align: center;
+}
+
+/* Payment Section Styles */
+label {
+  margin-right: 10px;
+}
+
+select, button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+button#paymentButton {
+  background-color:transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button#paymentButton:hover {
+  background-color: #45a049;
+}

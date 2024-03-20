@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Dashboard</title>
+  <link rel="stylesheet" href="frontpage.css">
+</head>
+<body>
+  <h1>Welcome to BookNest!!</h1>
+  <button class="menu-toggle"></button> 
+  <div id="sidebar">
+    <div id="customerInfo"></div>
+  </div>
+  <div class="product-grid"></div>
+  <div class="cartwhole">
+  <div id="cart">CART</div> <!-- Cart section -->
+  <h2>Total Price: <span id="totalPrice" class="card"></span></h2> <!-- Total price section -->
+  <div>
+    <label for="paymentMethod">Payment Method:</label>
+    <select id="paymentMethod">
+      <option value="cash">Cash</option>
+      <option value="credit">Credit</option>
+    </select>
+    <button id="paymentButton">Payment</button>
+  </div>
+</div>
+ 
+ 
+  <!-- Initialize Firebase -->
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+  <!-- Include your JavaScript file -->
+  <script src="frontpage.js" type="module"></script>
+</body>
+</html>
+ 
